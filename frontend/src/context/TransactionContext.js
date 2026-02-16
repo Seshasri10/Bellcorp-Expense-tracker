@@ -2,7 +2,7 @@ import { createContext, useState, useEffect } from "react";
 
 export const TransactionContext = createContext();
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://bellcorp-expense-tracker-ghxz.onrender.com/api";
 
 export const TransactionProvider = ({ children }) => {
   const [transactions, setTransactions] = useState([]);

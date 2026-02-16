@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 export const AuthContext = createContext();
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://bellcorp-expense-tracker-ghxz.onrender.com/api";
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(
